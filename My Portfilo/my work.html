@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfilo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cf7c7dd886.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contanier">
+            <nav>
+                <img src="Images/logo small.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfilo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, i'm <span>Ibekwe</span><br>Philomena From Nigeria </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--  About Me  -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/pixelcut-export.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m [Your Name], a passionate [Your Profession/Field] based in [Your Location]. With a background in [Your Educational Background or Relevant Experience], I specialize in [Your Specialization or Skills]. My journey in [Your Field] began when [Brief Story about how you got started or what inspired you], and since then, I’ve been dedicated to [Your Goals or Aspirations in Your Field].
+
+                        I thrive on [What You Love About Your Work], and I believe in [Your Professional Philosophy or Values]. Over the years, I’ve had the privilege of working on [Mention Notable Projects, Companies, or Experiences], where I [Describe Your Role and Contributions].
+                        
+                        When I’m not [Your Profession], you can find me [Your Hobbies or Interests], which helps me stay creative and inspired. I’m always eager to learn and grow, and I’m currently exploring [Any New Skills or Projects You’re Working On].
+                        
+                        Feel free to reach out if you’d like to connect, collaborate, or just chat about [Topics You’re Passionate About]!
+                        
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                                <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - current</span><br>Designing Web/App interfaces</li>
+                                <li><span>2019 - 2020</span><br>Designing Web/App interfaces</li>
+                                <li><span>2016 - 2017</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>Designing Web/App interfaces</li>
+                                <li><span>2014</span><br>Designing Web/App interfaces</li>
+                                <li><span>2014</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------------services---------------------------------->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque corrupti a maxime nostrum in. Corrupti eligendi, 
+                    distinctio reprehenderit, ipsam consectetur rem tempore commodi ea aspernatur magni asperiores sequi molestias?</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque corrupti a maxime nostrum in. Corrupti eligendi, 
+                    distinctio reprehenderit, ipsam consectetur rem tempore commodi ea aspernatur magni asperiores sequi molestias?</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque corrupti a maxime nostrum in. Corrupti eligendi, 
+                    distinctio reprehenderit, ipsam consectetur rem tempore commodi ea aspernatur magni asperiores sequi molestias?</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/service4.webp" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusamus cum dolorum ratione. Odio placeat consectetur mollitia 
+                        aliquid pariatur similique ut ipsum fuga dolore omnis sapiente, itaque harum reprehenderit enim.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/service3.jpg" >
+                <div class="layer">
+                    <h3>School App</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusamus cum dolorum ratione. Odio placeat consectetur mollitia 
+                        aliquid pariatur similique ut ipsum fuga dolore omnis sapiente, itaque harum reprehenderit enim.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/service5.jpg" >
+                <div class="layer">
+                    <h3>Resturant Website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde accusamus cum dolorum ratione. Odio placeat consectetur mollitia 
+                        aliquid pariatur similique ut ipsum fuga dolore omnis sapiente, itaque harum reprehenderit enim.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------------------contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:ibekwephilomena2@gmail.com">ibekwephilomena2@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>09133318163</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 ibekwephilomena alright resevered<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+
+
+
+
+</script>
+</body>
+</html>
